@@ -5,8 +5,7 @@
     {
       "name": "Thunder",
       "file_patterns": ["thunder"],
-      "jar_main_classes": ["com.thunder.", "net.thunder.", "thunder.main", "thunderhack", "thunder.client"],
-      "jar_entry_patterns": ["thunderhack.accesswidener"],
+      "jar_entry_patterns": ["thunderhack.accesswidener", "LICENSE_thunderhack-dscgg-exploitcore"],
       "log_patterns": ["[Thunder]", "ThunderClient", "thunder_", "Loading Thunder"],
       "hashes_sha256": [
         "027e6416484838a69da359714ba6e99ade5c06153cc4e5b55901ce7fa20c6e11",
@@ -16,10 +15,20 @@
         "f1021a54d05114e24560451eccbc26036b9749de0ce8515954957c5b07fa691d"
       ]
     },
+	
+    {
+      "name": "Doomsday Client",
+      "file_patterns": ["Doomsday"],
+      "jar_entry_patterns": ["5GFV7P3VIM5AK",  "000"],
+      "log_patterns": ["[Doomsday]", "DoomsdayClient", "Doomsday_", "Loading Doomsday"],
+      "hashes_sha256": [
+        "3794631c365b2a48622759fffc7e17a21966805d7a0969e4b96bcb5c06dfa634"
+      ]
+    },	
+	
     {
       "name": "Wurst",
       "file_patterns": ["Wurst", "wurst"],
-      "jar_main_classes": ["com.Wurst.", "Wurst.", "net.Wurst.", "Wurst.main"],
       "jar_entry_patterns": ["wurst.accesswidener"],
       "log_patterns": ["[Wurst]", "WurstClient", "Loading Wurst", "Wurst_"],
       "hashes_sha256": [
@@ -30,13 +39,67 @@
     {
       "name": "Catlean",
       "file_patterns": ["catlean"],
-      "jar_main_classes": [],
       "jar_entry_patterns": ["catlean.accesswidener"],
       "log_patterns": [],
       "hashes_sha256": [
         "d8ddc86601cf62fd9abbf740b1dc678a112658b1e82689d1a93e61a9c7909e2a",
         "d15e0afafc2ecbbc3883d3a1369542c16dfc3ed395e13e9de233fadaeb003f4c"
       ]
-    }
+    },
+	
+    {
+      "name": "Meteor",
+      "file_patterns": ["Meteor"],
+      "jar_entry_patterns": ["LICENSE_meteor-client",  "mixins.baritone-meteor.json"],
+      "log_patterns": [],
+      "hashes_sha256": [
+        "a7ed1b35ccefc7e1a07dad89a8bd4c1e00ab9b3e07ca655700c1eca9c79acf13",
+        "3e8c7ab86b7c0148f8711ca2e7cb608712dbc2a97253de0f131ec3db41a2bd3c"
+      ]
+    },
+    {
+      "name": "Prestige",
+      "file_patterns": ["Prestige"],
+      "jar_entry_patterns": ["LICENSE_Prestige",  "Prestige-Client-Mod-Fabric-1.21.4.dll"],
+      "log_patterns": [],
+      "hashes_sha256": [
+        "9fb17422d53c8b634d62ed996678abde34599daf2c3c6cace2f2a10311fe87d2"
+      ]
+    },	
+    {
+      "name": "Argon",
+      "file_patterns": ["Argon"],
+      "jar_entry_patterns": ["LICENSE_ImmediatelyFast-Fabric",  "Argon.class"],
+      "log_patterns": [],
+      "hashes_sha256": [
+        ""
+      ]
+    },
+    {
+      "name": "Grim",
+      "file_patterns": ["Grim"],
+      "jar_entry_patterns": ["1.21.1-refmap.json",  "whale"],
+      "log_patterns": [],
+      "hashes_sha256": [
+        ""
+      ]
+    },
+    {
+      "name": "Zenith",
+      "file_patterns": ["Zenith"],
+      "jar_entry_patterns": ["zenith.accesswidener"],
+      "log_patterns": [],
+      "hashes_sha256": [
+        "806c971227130c677f10cb4b76a21498c12f55dca66fd1ca560d0717cddefd50"
+      ]
+    },
+      "name": "Zenith",
+      "file_patterns": ["Zenith"],
+      "jar_entry_patterns": ["zenith.accesswidener"],
+      "log_patterns": [],
+      "hashes_sha256": [
+        "806c971227130c677f10cb4b76a21498c12f55dca66fd1ca560d0717cddefd50"
+      ]
+    },
   ]
 }
