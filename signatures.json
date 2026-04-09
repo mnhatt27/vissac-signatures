@@ -1,7 +1,6 @@
 {
   "version": "1.1",
-  "remote_url": "https://raw.githubusercontent.com/mnhatt27/vissac-signatures/main/signatures.json
-",
+  "remote_url": "https://raw.githubusercontent.com/mystic123/vissac-signatures/main/signatures.json",
   "hacks": [
     {
       "name": "Thunder",
