@@ -1,0 +1,43 @@
+{
+  "version": "1.1",
+  "remote_url": "https://raw.githubusercontent.com/mnhatt27/vissac-signatures/main/signatures.json
+",
+  "hacks": [
+    {
+      "name": "Thunder",
+      "file_patterns": ["thunder"],
+      "jar_main_classes": ["com.thunder.", "net.thunder.", "thunder.main", "thunderhack", "thunder.client"],
+      "jar_entry_patterns": ["thunderhack.accesswidener"],
+      "log_patterns": ["[Thunder]", "ThunderClient", "thunder_", "Loading Thunder"],
+      "hashes_sha256": [
+        "027e6416484838a69da359714ba6e99ade5c06153cc4e5b55901ce7fa20c6e11",
+        "8d272975fc2f534d509b0c4f025cdbbb493cbe3052289639f73ae987aceef83f",
+        "524f875334eb62fbc0e52526bc98ebf9ea1fd4cc0e489b502163b5d964e30f79",
+        "757637796ab34d8d0de62d55d001c2305975ca7d09a8349a8fcaa00e50c730b5",
+        "f1021a54d05114e24560451eccbc26036b9749de0ce8515954957c5b07fa691d"
+      ]
+    },
+    {
+      "name": "Wurst",
+      "file_patterns": ["Wurst", "wurst"],
+      "jar_main_classes": ["com.Wurst.", "Wurst.", "net.Wurst.", "Wurst.main"],
+      "jar_entry_patterns": ["wurst.accesswidener"],
+      "log_patterns": ["[Wurst]", "WurstClient", "Loading Wurst", "Wurst_"],
+      "hashes_sha256": [
+        "0b1726e0ccfbf4e8e44ec842be6a9ec22a7d03a54e6c43ebd2d6739dfdf5c619",
+        "dfc8c671b0e364d7101544625d177ebc77a850787788a6c40d087951c5e59bdd"
+      ]
+    },
+    {
+      "name": "Catlean",
+      "file_patterns": ["catlean"],
+      "jar_main_classes": [],
+      "jar_entry_patterns": ["catlean.accesswidener"],
+      "log_patterns": [],
+      "hashes_sha256": [
+        "d8ddc86601cf62fd9abbf740b1dc678a112658b1e82689d1a93e61a9c7909e2a",
+        "d15e0afafc2ecbbc3883d3a1369542c16dfc3ed395e13e9de233fadaeb003f4c"
+      ]
+    }
+  ]
+}
