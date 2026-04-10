@@ -83,7 +83,7 @@
       "jar_entry_patterns": ["zenith.accesswidener", "zenith_secure.node"],
       "log_patterns": ["[Zenith]"],
       "hashes_sha256": [
-        "806c971227130c677f10cb4b76a21498c12f55dca66fd1ca560d0717cddefd50"
+        ""
      },
     {
       "name": "SeedcrackerX",
@@ -91,7 +91,15 @@
       "jar_entry_patterns": ["seedcracker.mixins.json"],
       "log_patterns": ["[SeedcrackerX]"],
       "hashes_sha256": [
-        "806c971227130c677f10cb4b76a21498c12f55dca66fd1ca560d0717cddefd50"
+        ""
+     },
+    {
+      "name": "Thunder Next Gen Vũ cu 7cm không lông",
+      "file_patterns": ["ThunderHackNextGen"],
+      "jar_entry_patterns": ["LICENSE_ThunderHackNextGen"],
+      "log_patterns": ["[ThunderHackNextGen]"],
+      "hashes_sha256": [
+        ""
       ]
     }
   ]
