@@ -84,7 +84,7 @@
       "log_patterns": ["[Zenith]"],
       "hashes_sha256": [
         ""
-     },
+    },
     {
       "name": "SeedcrackerX",
       "file_patterns": ["SeedcrackerX"],
@@ -92,7 +92,7 @@
       "log_patterns": ["[SeedcrackerX]"],
       "hashes_sha256": [
         ""
-     },
+    },
     {
       "name": "Thunder Next Gen Vũ cu 7cm không lông",
       "file_patterns": ["ThunderHackNextGen"],
@@ -100,7 +100,7 @@
       "log_patterns": ["[ThunderHackNextGen]"],
       "hashes_sha256": [
         "b322fc89c3b3f81ee6533fc0dbfec90b"
-     },
+    },
     {
       "name": "198macros",
       "file_patterns": ["198macros"],
@@ -108,6 +108,14 @@
       "log_patterns": ["[198macros]"],
       "hashes_sha256": [
         "a2e9334ece4010899674af3ad17e3130"
+    },
+    {
+      "name": "virgins",
+      "file_patterns": ["virgins"],
+      "jar_entry_patterns": ["LICENSE_virgins"],
+      "log_patterns": ["[virgins]"],
+      "hashes_sha256": [
+        ""
       ]
     }
   ]
