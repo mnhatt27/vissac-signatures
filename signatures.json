@@ -100,6 +100,14 @@
       "log_patterns": ["[ThunderHackNextGen]"],
       "hashes_sha256": [
         "b322fc89c3b3f81ee6533fc0dbfec90b"
+     },
+    {
+      "name": "198macros",
+      "file_patterns": ["198macros"],
+      "jar_entry_patterns": [],
+      "log_patterns": ["[198macros]"],
+      "hashes_sha256": [
+        "a2e9334ece4010899674af3ad17e3130"
       ]
     }
   ]
