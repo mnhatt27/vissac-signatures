@@ -99,7 +99,7 @@
       "jar_entry_patterns": ["LICENSE_ThunderHackNextGen"],
       "log_patterns": ["[ThunderHackNextGen]"],
       "hashes_sha256": [
-        ""
+        "b322fc89c3b3f81ee6533fc0dbfec90b"
       ]
     }
   ]
