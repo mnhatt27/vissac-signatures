@@ -303,13 +303,6 @@
       "jar_entry_patterns": ["LICENSE_ClickCrystals"],
       "log_patterns": ["[ClickCrystals]"],
       "hashes_sha256": []
-    },
-    {
-      "name": "ClickCrystals",
-      "file_patterns": ["ClickCrystals"],
-      "jar_entry_patterns": ["LICENSE_ClickCrystals"],
-      "log_patterns": ["[ClickCrystals]"],
-      "hashes_sha256": []
     }
   ]
 }
