@@ -67,11 +67,13 @@
       "file_patterns": ["Meteor"],
       "jar_entry_patterns": [
         "LICENSE_meteor-client",
-        "mixins.baritone-meteor.json"
+        "mixins.baritone-meteor.json",
+		"meteor-client.accesswidener"
       ],
       "log_patterns": ["[Meteor]"],
       "hashes_sha256": [
         "a7ed1b35ccefc7e1a07dad89a8bd4c1e00ab9b3e07ca655700c1eca9c79acf13",
+		"fe166e4ccc27de18c6537acc72851f432b1a4850858f1e8cac4c80240a72b4ef",
         "3e8c7ab86b7c0148f8711ca2e7cb608712dbc2a97253de0f131ec3db41a2bd3c"
       ]
     },
@@ -147,6 +149,166 @@
       "file_patterns": ["virgins"],
       "jar_entry_patterns": ["LICENSE_virgins"],
       "log_patterns": ["[virgins]"],
+      "hashes_sha256": []
+    },
+    {
+      "name": "LiquidBounce",
+      "file_patterns": ["LiquidBounce"],
+      "jar_entry_patterns": [],
+      "log_patterns": ["[LiquidBounce]"],
+      "hashes_sha256": [
+        "52066e9e8ed0a49b78043ab298bfe597e6d24c0aa2eea27475b0fad149f9fe2a",
+		"f7f79908a9d41cc1104667f9fc7eaf4bd003d0aa99443f65bbf01202b886c4ae",
+		"9bd19eb5493a6268b1bcec59c93ffbbb78c67bf525fafd01517316e7f1db7652",
+		"ac86ca5150d64af0b55e22f65adac3cfd13aac88868085fcea3c019e920733c1"
+      ]
+    },
+    {
+      "name": "Aoba",
+      "file_patterns": ["Aoba"],
+      "jar_entry_patterns": ["LICENSE_Aoba"],
+      "log_patterns": ["[Aoba]"],
+      "hashes_sha256": [
+		"36e13223768d3c22811a2c1bf4c3d7abe9de2c1eed5ac57f995c931376a2f283"
+      ]
+    },
+    {
+      "name": "Accurate Block Placement Reborn",
+      "file_patterns": ["Accurate Block Placement Reborn"],
+      "jar_entry_patterns": ["LICENSE_AccurateBlockPlacement-Reborn"],
+      "log_patterns": ["[Accurate Block]"],
+      "hashes_sha256": [
+		"36e13223768d3c22811a2c1bf4c3d7abe9de2c1eed5ac57f995c931376a2f283"
+      ]
+    },
+    {
+      "name": "Armor Hotswap",
+      "file_patterns": ["Armor Hotswap"],
+      "jar_entry_patterns": ["LICENSE_armorhotswap-fabric-1.19"],
+      "log_patterns": ["[Armor Hotswap]"],
+      "hashes_sha256": [
+		"5ff482d7db47b10ebf405842c4718831d2f17cd1371ad25c4480c782bf15908f",
+		"1fc05ef958d9e31ae282c4958edc275fac9a5aaed76f38b1e039e76b5075d0d4"
+      ]
+    },
+    {
+      "name": "QuickMäth",
+      "file_patterns": ["QuickMäth"],
+      "jar_entry_patterns": ["quickmath.mixins.json"],
+      "log_patterns": ["[QuickMäth]"],
+      "hashes_sha256": [
+		"82da7f046b8d084ad00ad35520aa7ffa99aadf21db00f9192a729183a8f43501"
+      ]
+    },
+    {
+      "name": "AutoSwitch",
+      "file_patterns": ["AutoSwitch"],
+      "jar_entry_patterns": ["autoswitch.mixins.json"],
+      "log_patterns": ["[AutoSwitch]"],
+      "hashes_sha256": [
+		"ce0920af808914bc5f7b2baa08d8b685543450cde3586ad44a1c3e805b238031"
+      ]
+    },
+    {
+      "name": "Quickcraft",
+      "file_patterns": ["Quickcraft"],
+      "jar_entry_patterns": ["LICENSE_quickcraft"],
+      "log_patterns": ["[Quickcraft]"],
+      "hashes_sha256": [
+		"352f975a65ea03527c990ec78b880714d3c4c1fc2107de07709e4472c7e9c807"
+      ]
+    },
+    {
+      "name": "Freecam",
+      "file_patterns": ["Freecam"],
+      "jar_entry_patterns": [
+        "freecam.accesswidener",
+        "zergatul.freecam-refmap.json",
+		"zergatul.freecam.mixin.json"
+      ],
+      "log_patterns": ["[Freecam]"],
+      "hashes_sha256": [
+		"6863ab5244353097195f91f87b063d88c2600fcc802a299ed0f7ab29a3836ebd"
+      ]
+    },
+    {
+      "name": "Tweakeroo",
+      "file_patterns": ["Tweakeroo"],
+      "jar_entry_patterns": ["tweakeroo.accesswidener"],
+      "log_patterns": ["[Tweakeroo]"],
+      "hashes_sha256": [
+		"59319baaedee64b19f341a42393b73d319f2b8297e2009f200a8d2f016c51a87"
+      ]
+    },
+    {
+      "name": "shouldersurfing",
+      "file_patterns": ["shouldersurfing"],
+      "jar_entry_patterns": [
+        "shouldersurfing.forge.mixins.json",
+        "shouldersurfing.refmap.json"
+      ],
+      "log_patterns": ["[shouldersurfing]"],
+      "hashes_sha256": [
+		"4513329b71788a9c4f784437b223d7e39b08292793519177612ac0322bba428d"
+      ]
+    },
+    {
+      "name": "Inventory Control Tweaks",
+      "file_patterns": ["Inventory Control Tweaks"],
+      "jar_entry_patterns": ["inventory-control-tweaks-refmap.json"],
+      "log_patterns": ["[Inventory Control Tweaks]"],
+      "hashes_sha256": [
+		"6b9d91f8dff0393600e378c7c86d3b37104c64e759ba4b04115f3dd405fc4918"
+      ]
+    },
+    {
+      "name": "Inventory Profiles Next",
+      "file_patterns": ["Inventory Profiles Next"],
+      "jar_entry_patterns": ["ipnext.accesswidener"],
+      "log_patterns": ["[Inventory Profiles Next]"],
+      "hashes_sha256": [
+		"e56b105cc36a786650b34ceb1b5af8b4a6b8cb167f02806bb23432bacfd52239"
+      ]
+    },
+    {
+      "name": "betterthirdperson",
+      "file_patterns": ["betterthirdperson"],
+      "jar_entry_patterns": ["BetterThirdPerson-common-common-refmap.json"],
+      "log_patterns": ["[betterthirdperson]"],
+      "hashes_sha256": [
+		"c4b6a35a5290453d172417337907dc2422790a341138a2048ae603ee4c996196"
+      ]
+    },
+    {
+      "name": "Camera Utils",
+      "file_patterns": ["Camera Utils"],
+      "jar_entry_patterns": ["camerautils.mixins.json"],
+      "log_patterns": ["[Camera Utils]"],
+      "hashes_sha256": [
+		"cc28acfb574d0fcc5c6c27aa42ac019756f39dfbdb40b3ec8dd784aa51a3421b"
+      ]
+    },
+    {
+      "name": "mousewheelie",
+      "file_patterns": ["mousewheelie"],
+      "jar_entry_patterns": ["mousewheelie.mixins.json"],
+      "log_patterns": ["[mousewheelie]"],
+      "hashes_sha256": [
+		"4ffb1e607d44b02fc739725da61e59e32b49c0fe8f141d8afb00ae2ccf5ac3e3"
+      ]
+    },
+    {
+      "name": "ClickCrystals",
+      "file_patterns": ["ClickCrystals"],
+      "jar_entry_patterns": ["LICENSE_ClickCrystals"],
+      "log_patterns": ["[ClickCrystals]"],
+      "hashes_sha256": []
+    },
+    {
+      "name": "ClickCrystals",
+      "file_patterns": ["ClickCrystals"],
+      "jar_entry_patterns": ["LICENSE_ClickCrystals"],
+      "log_patterns": ["[ClickCrystals]"],
       "hashes_sha256": []
     }
   ]
